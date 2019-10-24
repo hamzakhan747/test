@@ -1,0 +1,891 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="test.css">
+    <link rel="stylesheet" type="text/css" href="responsive.css">
+    <link rel="stylesheet" href="progresscircle.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <!--test jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!--test jquery-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <!--for tool tip-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!--for tool tip-->
+    <script src="jquery.barfiller.js"></script>
+    <script src="progresscircle.js"></script>
+    <script>
+        $(function () {
+
+            $('.circlechart').circlechart();
+
+        });
+    </script>
+</head>
+<body>
+    <!--Header section-->
+    <section class="sect-1">
+        <header class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 header">
+                   
+                    <div id="mySidenav" class="sidenav ">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <a href="#">About</a>
+                        <a href="#">Services</a>
+                        <a href="#">Clients</a>
+                        <a href="#">Contact</a>
+                    </div>
+                    <div class="d-flex justify-content-end headham">
+                        <span style="font-size:30px;cursor:pointer;color:white;" onclick="openNav()">&#9776;</span>
+                    </div>
+
+                    <div class="col-md-2 divimg mt-3">
+
+
+
+                        <img src="./Asserts/scteisbe-logo-full-2017-reverse-copy.png" alt="NOT FOUND">
+                    </div>
+
+                    <div class="col-md-7  header-div1 mt-4">
+                        <ul class="list2">
+                            <li class="list2-1">
+                                <a>WHAT WE DO</a>
+                                <ul class="d-flex list3">
+                                    <li>sleep</li>
+                                    <li>sleep</li>
+                                </ul>
+                            </li>
+                            <li><a>STANDARDS</a></li>
+                            <li><a>EDUCATION</a></li>
+                            <li><a>MEMBERSHIP</a></li>
+                            <li><a>CHAPTERS</a></li>
+                            <li><a>CERTIFICATION</a></li>
+                        </ul>
+                        `
+                    </div>
+
+                    <div class="col-md-3 col-sm-3 header-div1 mt-3">
+                        <ul>
+                            <li><button type="button" class="btn btn-outline-warning btn-back header-text">JOIN US</button></li>
+                            <li><button type="button" class="btn btn-warning  header-text">login</button></li>
+                            <li><img src="./Asserts/search.png" alt="NOT FOUND"></li>
+                            <li><img src="./Asserts/cart.png" alt="NOT FOUND"></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-12 header-div2">
+
+                    <h2>With what can we connect you with today?</h2>
+                    <form><input class="mt-5" type="text" placeholder="TYPE YOUR SEARCH HERE"></form>
+                    <p class="mt-5">SCTE•ISBE connects the entire cable industry through standards, education, certification, and volunteerism.</p>
+                    <a href="#sect-7"><img src="./Asserts/orangearrowdown.png" alt="NOT FOUND"></a>
+
+                </div>
+            </div>
+        </header>
+    </section>
+    <!--Header section END-->
+    <!--section4 Circular Progress-->
+    <section class="sect-4 pro">
+
+        <div class="circlechart"
+             data-percentage="-20">
+            -20%
+        </div>
+
+        <div class="circlechart"
+             data-percentage="50">
+            50%
+        </div>
+        <div class="circlechart"
+             data-percentage="50">
+            50%
+        </div>
+        <div class="circlechart"
+             data-percentage="50">
+            50%
+        </div>
+
+    </section>
+    <!--section4 Circular Progress END-->
+    <!--section5 still background-->
+    <section class="sect-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-4">hello</div>
+                    <div class="col-md-4">hello</div>
+                    <div class="col-md-4">hello</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--section5 still background END-->
+    <!--section6 Hamburger-->
+    <section class="sect-6 mt-5">
+        <div class="col-md-12" id="ham">
+
+            <div id="mySidenav" class="sidenav ">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Clients</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="d-flex justify-content-end">
+                <span style="font-size:30px;cursor:pointer;color:white;" onclick="openNav()">&#9776;</span>
+            </div>
+            <!--
+                <div id="myLinks">
+                    <a href="#news">News</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#about">About</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+                    -->
+
+        </div>
+    </section>
+    <!--section6 Hamburger END-->
+    <!--Section7 FLIP CARD-->
+    <section class="sect-7 mt-5 pt-5" id="sect-7">
+        <div class="container-fluid mt-5">
+            <div class="row">
+                <div class="col-md-12 flip mt-5 pt-5">
+
+                    <div class="circle-container mt-5">
+                        <div class="outer-ring"></div>
+                        <!-- Used for more of a gyroscope type effect
+                        <div class="outer-outer-ring"></div>
+                        -->
+                        <div class="circle">
+                            <div class="front">
+                                <p>START</p>
+                            </div>
+                            <div class="back">
+                                <img class="back-logo" src="./Asserts/database-icon.png" alt="The Elevation Group Logo" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="circle-container">
+                        <div class="outer-ring"></div>
+                        <!-- Used for more of a gyroscope type effect
+                        <div class="outer-outer-ring"></div>
+                        -->
+                        <div class="circle">
+                            <div class="front">
+                                <p>START</p>
+                            </div>
+                            <div class="back">
+                                <img class="back-logo" src="./Asserts/database-icon.png" alt="The Elevation Group Logo" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="circle-container mt-5">
+                        <div class="outer-ring"></div>
+                        <!-- Used for more of a gyroscope type effect
+                        <div class="outer-outer-ring"></div>
+                        -->
+                        <div class="circle">
+                            <div class="front">
+                                <p>START</p>
+                            </div>
+                            <div class="back">
+                                <img class="back-logo" src="./Asserts/database-icon.png" alt="The Elevation Group Logo" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="circle-container">
+                        <div class="outer-ring"></div>
+                        <!-- Used for more of a gyroscope type effect
+                        <div class="outer-outer-ring"></div>
+                        -->
+                        <div class="circle">
+                            <div class="front">
+                                <p>START</p>
+                            </div>
+                            <div class="back">
+                                <img class="back-logo" src="./Asserts/database-icon.png" alt="The Elevation Group Logo" />
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Section8 ProgressBar-->
+    <section class="sect-8 mt-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+
+                    <h6>HTML</h6>
+                    <div id="bar1" class="barfiller">
+                        <div class="tipWrap">
+                            <span class="tip"></span>
+                        </div>
+                        <span class="fill" data-percentage="60"></span>
+                    </div>
+                    <h6>CSS</h6>
+                    <div id="bar2" class="barfiller">
+                        <div class="tipWrap">
+                            <span class="tip"></span>
+                        </div>
+                        <span class="fill" data-percentage="80"></span>
+                    </div>
+                    <h6>SLEEPING</h6>
+                    <div id="bar3" class="barfiller">
+                        <div class="tipWrap">
+                            <span class="tip"></span>
+                        </div>
+                        <span class="fill" data-percentage="100"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Section8 ProgressBar END-->
+    <!--*****Section9 BOX MAGIC*****-->
+    <section class="sect-9">
+        <div class="col-md-12 sect-9-1">
+
+            <div class="box">
+                <h1>JADOO WALAY DABAY</h1>
+            </div>
+            <div class="box">
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                    an unknown printer took a galley
+                </p>
+
+            </div>
+            <div class="box">
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                    an unknown printer took a galley
+                </p>
+            </div>
+            <div class="box">
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                    an unknown printer took a galley
+                </p>
+            </div>
+            <div class="box">
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                    an unknown printer took a galley
+                </p>
+            </div>
+            <div class="box">
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                    an unknown printer took a galley
+                </p>
+            </div>
+            <div class="box">
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                    an unknown printer took a galley
+                </p>
+            </div>
+        </div>
+    </section>
+    <!--*****Section9 BOX MAGIC END*****-->
+    <!--********************************SECTION 10 MODEL******************************-->
+    <section class="sect-10 mt-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 d-flex">
+                    <div class="col-md-8 bg-info">
+
+                        <ul class="list-group list-group-horizontal sect-10-l">
+                            <li>
+                                <a>STANDARDS</a>
+                                <ul class="sect-10-l-1">
+                                    <li><a>EDUCATION</a></li>
+                                    <li><a>MEMBERSHIP</a></li>
+                                    <li><a>CHAPTERS</a></li>
+                                    <li><a>CERTIFICATION</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a>EDUCATION</a>
+                                <ul class="sect-10-l-1">
+                                    <li><a>EDUCATION</a></li>
+                                    <li><a>MEMBERSHIP</a></li>
+                                    <li><a>CHAPTERS</a></li>
+                                    <li><a>CERTIFICATION</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a>MEMBERSHIP</a>
+                                <ul class="sect-10-l-1">
+                                    <li><a>EDUCATION</a></li>
+                                    <li><a>MEMBERSHIP</a></li>
+                                    <li><a>CHAPTERS</a></li>
+                                    <li><a>CERTIFICATION</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a>CHAPTERS</a>
+                                <ul class="sect-10-l-1">
+                                    <li><a>EDUCATION</a></li>
+                                    <li><a>MEMBERSHIP</a></li>
+                                    <li><a>CHAPTERS</a></li>
+                                    <li><a>CERTIFICATION</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a>CERTIFICATION</a>
+                                <ul class="sect-10-l-1">
+                                    <li><a>EDUCATION</a></li>
+                                    <li><a>MEMBERSHIP</a></li>
+                                    <li><a>CHAPTERS</a></li>
+                                    <li><a>CERTIFICATION</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="col-md-4 bg-warning d-flex justify-content-center">
+                        <!-- Trigger/Open The Modal -->
+                        <button id="myBtn">Open Modal</button>
+
+                        <!-- The Modal -->
+                        <div id="myModal" class="modal">
+
+                            <!-- Modal content -->
+                            <!-- <div class="modal-content">
+                             <div class="modal-header">
+                                 <span class="close">&times;</span>
+
+                             </div>
+                             <div class="modal-body">
+                                 <p>
+                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                                     an unknown printer took a galley
+                                 </p>
+                             </div>
+                            -->
+                            <div class="modal-content d-flex flex-row">
+
+                                <div class="col-md-3 d-flex flex-column align-items-center modal-div1">
+                                    <div class="d-flex flex-row">
+                                        <button type="button" style="color:white;" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="ml-2" style="color:white;">close</h4>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 d-flex flex-column">
+
+                                    <div class="triangle triangle-3"></div>
+                                </div>
+                                <div class="col-md-5 d-flex flex-column justify-content-around">
+                                    <select class="minimal">
+                                        <option>CSS SELECT arrow (minimal)</option>
+                                        <option>No external background image</option>
+                                        <option>No wrapper</option>
+                                    </select>
+
+                                    <span class="clearable">
+                                        <input type="number" name="" value="" placeholder="">
+                                        <i class="clearable__clear">&times;</i>
+                                    </span>
+
+                                    <select class="minimal2">
+                                        <option class="option">DISTANCE</option>
+                                        <option class="option">5 Miles</option>
+                                        <option>10 Miles</option>
+                                        <option>20 Miles</option>
+                                        <option>30 Miles</option>
+                                        <option>30 Miles</option>
+                                    </select>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!--********************************SECTION 10 MODEL END**************************-->
+    <!--********************************SECTION 13 TOGGLE JQUERY**********************-->
+    <section class="sect-13 mt-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 d-flex flex-row justify-content-around">
+                    <h6>Members</h6>
+                    <i class="fa fa-caret-down press"></i>
+
+                </div>
+                <div class="col-md-12 d-flex flex-row justify-content-around">
+                    <ul class="hh">
+                        <li><a>MEMBERSHIP</a></li>
+                        <li><a>MEMBERSHIP</a></li>
+                        <li><a>MEMBERSHIP</a></li>
+                        <li><a>MEMBERSHIP</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--********************************SECTION 13 TOGGLE JQUERY END**********************-->
+    <!--********************************SECTION 14 CHECK BOX******************************-->
+
+    <section class="sect-14 mt-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 d-flex">
+                    <div class="col-md-3">
+                        <h4>Check Boxes</h4>
+                    </div>
+                    <div class="col-md-9">
+
+                        <form class="d-flex flex-row justify-content-around">
+                            <input class="styled-checkbox" id="styled-checkbox-1" type="checkbox" value="value1">
+                            <label for="styled-checkbox-1">Checkbox</label>
+                            <input class="styled-checkbox" id="styled-checkbox-2" type="checkbox" value="value1">
+                            <label for="styled-checkbox-2">Checkbox</label>
+                            <input class="styled-checkbox" id="styled-checkbox-3" type="checkbox" value="value1">
+                            <label for="styled-checkbox-3">Checkbox</label>
+                            <input class="styled-checkbox" id="styled-checkbox-4" type="checkbox" value="value1">
+                            <label for="styled-checkbox-4">Checkbox</label>
+
+
+                        </form>
+                        <form class="d-flex flex-row justify-content-around">
+                            <input class="styled-checkbox" id="styled-checkbox-5" type="checkbox" value="value1">
+                            <label for="styled-checkbox-5">Checkbox</label>
+                            <input class="styled-checkbox" id="styled-checkbox-6" type="checkbox" value="value1">
+                            <label for="styled-checkbox-6">Checkbox</label>
+                            <input class="styled-checkbox" id="styled-checkbox-7" type="checkbox" value="value1">
+                            <label for="styled-checkbox-7">Checkbox</label>
+                            <input class="styled-checkbox" id="styled-checkbox-8" type="checkbox" value="value1">
+                            <label for="styled-checkbox-8">Checkbox</label>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--********************************SECTION 14 CHECK BOX END**************************-->
+    <!--********************************SECTION 15 TOOL TIP ******************************-->
+
+    <section class="sect-15 mt-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 d-flex flex-row flex-wrap">
+                    <div class="col-md-8">
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                            an unknown printer took a galley<span data-toggle="tooltip" data-placement="top" title="paragraph 1">?</span>
+                        </p>
+
+                        <p data-toggle="tooltip" data-placement="bottom" title="paragraph 2">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                            an unknown printer took a galley
+                        </p>
+                        <p data-toggle="tooltip" data-placement="left" title="paragraph 3">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                            an unknown printer took a galley
+                        </p>
+                        <p data-toggle="tooltip" data-placement="right" title="paragraph 4">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                            an unknown printer took a galley
+                        </p>
+                    </div>
+                    <div class="col-md-4 d-flex flex-column">
+                        <a href="#">?</a>
+                        <a href="#" class="mt-5">?</a>
+                        <a href="#" class="mt-5">?</a>
+                        <a href="#" class="mt-5">?</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--********************************SECTION 15 TOOL TIP END***************************-->
+    <!--********************************SECTION 16 COLLAPSE*******************************-->
+    <section class="sect-16">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="container demo">
+
+
+                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingOne">
+                                    <h4 class="panel-title">
+                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            <i class="more-less glyphicon glyphicon-plus"></i>
+                                            SKILLS
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                                    <div class="panel-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingTwo">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            <i class="more-less glyphicon glyphicon-plus"></i>
+                                            HOBBIES
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                    <div class="panel-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingThree">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            <i class="more-less glyphicon glyphicon-plus"></i>
+                                            INTEREST
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                    <div class="panel-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div><!-- panel-group -->
+
+
+                    </div><!-- container -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--********************************SECTION 16 COLLAPSE END*******************************-->
+    <!--********************************SECTION GSAP ANIMATION********************************-->
+    <section class="sect-17">
+        <nav>
+            <div class="nav-open">
+                <h3>Portfolio</h3>
+                <ul class="nav-links">
+                    <li class="nav-btn">Shop</li>
+                    <li>Blog</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+
+            <div class="nav-close">
+                <div class="clothing">
+                    <h2>Clothes</h2>
+                    <ul>
+                        <li><a href="#">Hats</a></li>
+                        <li><a href="#">Swimsuits</a></li>
+                        <li><a href="#">Underwear</a></li>
+                        <li><a href="#">Misc</a></li>
+                    </ul>
+                </div>
+                <div class="nav-imgs">
+                    <img src="./Asserts/b3headerslider.jpg" alt="">
+                    <img src="./Asserts/b4.jpg" alt="">
+                </div>
+            </div>
+        </nav>
+        <img src="./Asserts/b2headerslider.jpg" alt="" class="cover">
+    </section>
+    <!--********************************SECTION GSAP ANIMATION END********************************-->
+    <!--********************************SECTION CSS ANIMATION********************************-->
+    <section class="sect-18 d-flex flex-row justify-content-center">
+        <h1 class="animated infinite slideInLeft delay-2s">Example</h1>
+    </section>
+    <!--********************************SECTION CSS ANIMATION END********************************-->
+    <!--********************************SECTION 2 RED SQUARE CART********************************-->
+    <section class="sect-2">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 d-flex flex-row">
+                    <div class="hovercont">
+                        <div class="maindiv"></div>
+                        <div class="overlay overlayleft">
+                            <div  class="text">LEFT</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--********************************SECTION 2 RED SQUARE CART END********************************-->
+    <!--*******************************SCROLLING SCRIPT******************************************-->
+    <script>
+
+    </script>
+    <!--********************************SECTION GSAP ANIMATION SCRIPT********************************-->
+    <script>
+        const Btn = document.querySelector(".nav-btn");
+        const nav = document.querySelector(".nav-close");
+
+        const tl = new TimelineLite({ paused: true, reversed: true });
+
+        tl.to(".cover", 1, {
+            width: "60%",
+            ease: Power2.easeOut,
+        }).to(".nav-close", 1, {
+            height: "80vh",
+            ease: Power2.easeOut,
+        }).fromTo(".clothing, .nav-imgs", .5, {
+            opacity: 0,
+            x: 50,
+            ease: Power2.easeOut,
+        },
+            {
+                opacity: 1,
+                x: 0,
+            })
+
+        Btn.addEventListener("click", () => {
+            togglereversed(tl);
+        });
+
+        const togglereversed = (tween) => {
+            tween.reversed() ? tween.play() : tween.reverse();
+        }
+
+    </script>
+    <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!SECTION 16 COLLAPSE SCRIPT!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+
+    <script>
+        function toggleIcon(e) {
+            $(e.target)
+                .prev('.panel-heading')
+                .find(".more-less")
+                .toggleClass('glyphicon-plus glyphicon-minus');
+        }
+        $('.panel-group').on('hidden.bs.collapse', toggleIcon);
+        $('.panel-group').on('shown.bs.collapse', toggleIcon);
+
+    </script>
+
+    <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! SECTION 15 TOOL TIP SCRIPT !!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+    <!--********************************SECTION 10 MODEL SCRIPT******************************-->
+    <!--dropdownbtn-->
+    <script>
+        $(".clearable").each(function () {
+
+            var $inp = $(this).find("input:text"),
+                $cle = $(this).find(".clearable__clear");
+
+            $inp.on("input", function () {
+                $cle.toggle(!!this.value);
+            });
+
+            $cle.on("touchstart click", function (e) {
+                e.preventDefault();
+                $inp.val("").trigger("input");
+            });
+
+        });
+    </script>
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+        var btn2 = document.getElementById("endbtn");
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+        // When the user clicks the button, open the modal
+        btn.onclick = function () {
+            modal.style.display = "block";
+        }
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+        btn2.onclick = function () {
+            modal.style.display = "none";
+        }
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
+    <!--********************************SECTION 13 TOGGLE JQUERY SCRIPT**********************-->
+    <script>
+        $(document).ready(function () {
+            $("i").click(function () {
+                $(".hh").toggle();
+            });
+        });
+
+    </script>
+    <!--*************************section6 Hamburger SCRIPT*************************-->
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "100%";
+        }
+
+        /* Close/hide the sidenav */
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+    <!--*************************Section8 ProgressBar SCRIPT********************-->
+    <script>
+        $('#bar1').barfiller();
+        $('#bar1').barfiller({
+
+            // color of bar
+            barColor: '#16b597',
+
+            // shows a tooltip
+            tooltip: true,
+
+            // duration in ms
+            duration: 1000,
+
+            // re-animate on resize
+            animateOnResize: true,
+
+            // custom symbol
+            symbol: "%"
+
+        });
+
+        $('#bar2').barfiller({
+
+            // color of bar
+            barColor: '#16b597',
+
+            // shows a tooltip
+            tooltip: true,
+
+            // duration in ms
+            duration: 1000,
+
+            // re-animate on resize
+            animateOnResize: true,
+
+            // custom symbol
+            symbol: "%"
+
+        });
+
+        $('#bar3').barfiller({
+
+            // color of bar
+            barColor: '#16b597',
+
+            // shows a tooltip
+            tooltip: true,
+
+            // duration in ms
+            duration: 1000,
+
+            // re-animate on resize
+            animateOnResize: true,
+
+            // custom symbol
+            symbol: "%"
+
+        });
+
+    </script>
+    <!--******************************************Section6 Hamburger Scripit********************************-->
+    <script>
+        $(document).ready(function () {
+
+            $('.first-button').on('click', function () {
+
+                $('.animated-icon1').toggleClass('open');
+            });
+            $('.second-button').on('click', function () {
+
+                $('.animated-icon2').toggleClass('open');
+            });
+            $('.third-button').on('click', function () {
+
+                $('.animated-icon3').toggleClass('open');
+            });
+        });
+
+    </script>
+
+
+</body>
+</html>
+
+<!--
+<h2>With what can we connect you with today?</h2>
+                <form><input class="mt-5" type="text" placeholder="TYPE YOUR SEARCH HERE"></form>
+                <p class="mt-5">SCTE•ISBE connects the entire cable industry through standards, education, certification, and volunteerism.</p>
+                <a href="#"><img src="./Asserts/orangearrowdown.png" alt="NOT FOUND"></a>
+-->
